@@ -9,16 +9,12 @@ import threading
 import math
 from typing import Optional, Dict, Any
 
-# ═══════════════════════════════════════════════════════════════
-# YOUR API KEY
-# ═══════════════════════════════════════════════════════════════
+
 
 WEATHER_API_KEY = "253f05fe222d4d32f9cd6c52b70d487a"
 DEFAULT_CITY = "Mumbai"
 
-# ═══════════════════════════════════════════════════════════════
-# WEATHER CLASS
-# ═══════════════════════════════════════════════════════════════
+
 
 class RealWeather:
     def __init__(self, api_key: str = WEATHER_API_KEY):
@@ -100,9 +96,7 @@ class RealWeather:
         else: return '🌡️'
 
 
-# ═══════════════════════════════════════════════════════════════
-# PREMIUM WEATHER DASHBOARD (FIXED)
-# ═══════════════════════════════════════════════════════════════
+
 
 class PremiumWeatherDashboard:
     def __init__(self):
