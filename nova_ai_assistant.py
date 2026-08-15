@@ -1,25 +1,3 @@
-"""
-NOVA AI ASSISTANT - UPGRADED JARVIS EDITION
-═══════════════════════════════════════════════════════════════════════════
-NEW FEATURES ADDED (All fail-safe, modular):
-  ✅ 🧠 AI Brain          - OpenAI/LLM integration with fallback
-  ✅ 📂 File Management   - open/create/delete/search files
-  ✅ 📸 Screenshot        - capture & save screenshots
-  ✅ 🧠 Memory System     - JSON-based user memory
-  ✅ ⚙️  System Monitor   - CPU/RAM/Battery via psutil
-  ✅ 🌐 Smart Search      - DuckDuckGo summary before browser
-  ✅ 🤖 Task Automation   - Multi-step commands
-  ✅ 📧 Email Sender      - SMTP with credential safety
-  ✅ 🧩 Command Learning  - Custom user-defined commands in JSON
-  ✅ 🎤 Improved Voice    - Confirmation + success/failure feedback
-
-EXISTING FEATURES (Untouched):
-  ✅ Toggle Wake Word, App Opener, Power Control, Reminders
-  ✅ Weather, Volume, Clipboard, Time/Date, Wikipedia
-  ✅ YouTube, Google Search, Beautiful Modern GUI
-═══════════════════════════════════════════════════════════════════════════
-"""
-
 import datetime
 import webbrowser
 import os
